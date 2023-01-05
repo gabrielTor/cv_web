@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(127, 242, 127, 0.365);
+    padding: 0 15%;
+}
+
+main{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+main h2{
+    margin-top: -1%;
+}
+
+.personal-info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+
+.personal-info p{
+    margin-top: -1%;
+}
+
+.links{
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    height: 1rem;
+    margin: auto 2px;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+.portfolio{
+    margin: 1rem;
+}
+
+.tec{
+    display: flex;
+
+}
+
+.exp{
+    margin: -0.5px 0;
+}
+
+@media (width < 650px) {
+    body{
+        padding: 0 1rem;
+    }
+}
