@@ -42,9 +42,16 @@ a{
     margin: 1rem;
 }
 
+h3{
+    cursor: pointer;
+    width: fit-content;
+}
+
 .tec{
     display: flex;
-
+}
+.no-display{
+    display: none;
 }
 
 .exp{
